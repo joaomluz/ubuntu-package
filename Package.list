@@ -33,6 +33,8 @@ apt-transport-https				install
 apt-utils					install
 aptdaemon					install
 aptdaemon-data					install
+aptitude					install
+aptitude-common					install
 apturl						install
 apturl-common					install
 aspell						install
@@ -345,6 +347,7 @@ ibus						install
 ibus-gtk:amd64					install
 ibus-gtk3:amd64					install
 ibus-table					install
+icu-devtools					install
 ifupdown					install
 im-config					install
 imagemagick					install
@@ -536,6 +539,7 @@ libcupsmime1:amd64				install
 libcupsppdc1:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
+libcwidget3v5:amd64				install
 libdaemon0:amd64				install
 libdata-alias-perl				install
 libdatrie1:amd64				install
@@ -757,6 +761,7 @@ libhyphen0:amd64				install
 libibus-1.0-5:amd64				install
 libical1a:amd64					install
 libice6:amd64					install
+libicu-dev:amd64				install
 libicu55:amd64					install
 libidn11:amd64					install
 libido3-0.1-0:amd64				install
@@ -919,11 +924,10 @@ libpam-runtime					install
 libpam-systemd:amd64				install
 libpam0g:amd64					install
 libpango-1.0-0:amd64				install
-libpango1.0-0:amd64				install
 libpangocairo-1.0-0:amd64			install
 libpangoft2-1.0-0:amd64				install
 libpangomm-1.4-1v5:amd64			install
-libpangox-1.0-0:amd64				install
+libpangox-1.0-0:amd64				deinstall
 libpangoxft-1.0-0:amd64				install
 libpaper-utils					install
 libpaper1:amd64					install
@@ -1242,6 +1246,7 @@ libxml-parser-perl				install
 libxml-twig-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
+libxml2-dev:amd64				install
 libxmu6:amd64					install
 libxmuu1:amd64					install
 libxpm4:amd64					install
@@ -1273,9 +1278,13 @@ linux-firmware					install
 linux-generic					install
 linux-headers-4.4.0-21				install
 linux-headers-4.4.0-21-generic			install
+linux-headers-4.4.0-36				install
+linux-headers-4.4.0-36-generic			install
 linux-headers-generic				install
 linux-image-4.4.0-21-generic			install
+linux-image-4.4.0-36-generic			install
 linux-image-extra-4.4.0-21-generic		install
+linux-image-extra-4.4.0-36-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install
@@ -1527,6 +1536,7 @@ signon-ui-service				install
 signon-ui-x11					install
 signond						install
 simple-scan					install
+snap-confine					install
 snapd						install
 sni-qt:amd64					install
 software-properties-common			install
